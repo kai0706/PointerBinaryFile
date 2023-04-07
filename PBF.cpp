@@ -41,7 +41,7 @@ int main() {
 	if (!yy) return 666;
 	yy.write(header, 12 * sizeof(char));
 	yy.write((char*)data2, n[0] * sizeof(short));
-	yy.close();*/
+	yy.close();
 
 
 	
@@ -56,6 +56,6 @@ int main() {
 	ifstream ww("a.dat", ios::binary | ios::in);
 	if (!zz) return 666;
 	ww.read((char*)header, 12 * sizeof(char));
-	ww.close();*/
+	ww.close();
 
 }
